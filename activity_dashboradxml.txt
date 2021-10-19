@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".dashboard"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="58dp"
+        android:layout_width="231dp"
+        app:layout_constraintVertical_bias="0.227"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Welcome to Dashboard"
+        android:id="@+id/textView3"/>
+
+    <TextView
+        android:layout_height="66dp"
+        android:layout_width="292dp"
+        app:layout_constraintVertical_bias="0.39"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
+        android:text="DUMMY"
+        android:id="@+id/email_home"
+        app:layout_constraintHorizontal_bias="0.495"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_height="60dp"
+        android:layout_width="222dp"
+        app:layout_constraintVertical_bias="0.585"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="DUMMY"
+        android:id="@+id/uidhome"
+        app:layout_constraintHorizontal_bias="0.497"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.818"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="logout"
+        android:id="@+id/logout"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:onClick="logoutprocess"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
